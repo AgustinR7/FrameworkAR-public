@@ -1,6 +1,6 @@
 # FrameworkAR
 
-A production-ready Full Stack web application template with real-time communication, role-based access control, and a fully automated CI/CD pipeline.
+A Full Stack web application template with real-time communication, role-based access control, and a fully automated CI/CD pipeline.
 
 [![Backend CI/CD](https://github.com/AgustinR7/FrameworkAR/actions/workflows/backend.yml/badge.svg)](https://github.com/AgustinR7/FrameworkAR/actions/workflows/backend.yml)
 [![Frontend CI/CD](https://github.com/AgustinR7/FrameworkAR/actions/workflows/frontend.yml/badge.svg)](https://github.com/AgustinR7/FrameworkAR/actions/workflows/frontend.yml)
