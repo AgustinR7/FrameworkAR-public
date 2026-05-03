@@ -1,0 +1,115 @@
+{
+  "navbar": {
+    "profile": "My Profile",
+    "logout": "Logout"
+  },
+  "sidebar": {
+    "home": "Home",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "welcome": {
+    "greeting": "Hi {{name}}, good to see you again :)"
+  },
+  "auth": {
+    "createAccount": "Create Account",
+    "welcome": "Welcome",
+    "username": "Username",
+    "email": "Email",
+    "password": "Password",
+    "register": "Register",
+    "login": "Login",
+    "alreadyHaveAccount": "Already have an account? Login",
+    "dontHaveAccount": "Don't have an account? Register here"
+  },
+  "profile": {
+    "name": "First Name",
+    "surname": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "birthDate": "Birth Date",
+    "address": "Address",
+    "city": "City",
+    "province": "State/Province",
+    "country": "Country",
+    "saveChanges": "Save Changes"
+  },
+  "settings": {
+    "title": "Settings",
+    "general": "General",
+    "userControl": "User Control",
+    "generalConfig": "General Settings",
+    "noConfig": "There are no general settings available yet. You will soon be able to choose your favorite theme here."
+  },
+  "userControl": {
+    "title": "User Control",
+    "addUser": "Add User",
+    "table": {
+      "username": "Username",
+      "name": "Name",
+      "email": "Email",
+      "role": "Role",
+      "status": "Status",
+      "actions": "Actions",
+      "active": "Active",
+      "blocked": "Blocked"
+    },
+    "actions": {
+      "resetPassword": "Reset Password",
+      "block": "Block",
+      "activate": "Activate",
+      "delete": "Delete"
+    },
+    "modals": {
+      "cancel": "Cancel",
+      "resetTitle": "Reset Password",
+      "resetConfirm": "Confirm Reset",
+      "resetDesc1": "The following random password has been generated for the selected user.",
+      "resetDesc2": "Please copy it and share it with the user before confirming.",
+      "resetInput": "New Generated Password",
+      "addTitle": "Add New User",
+      "addConfirm": "Create and Generate Key",
+      "addRole": "Role",
+      "addRoleUser": "Normal User (user)",
+      "addRoleAdmin": "Administrator (admin)",
+      "successTitle": "User Created",
+      "successClose": "Close",
+      "successDesc1": "The user has been successfully created.",
+      "successDesc2": "This is their randomly generated temporary password:",
+      "copyClipboard": "Copy to clipboard",
+      "delete1Title": "Delete User",
+      "delete1Confirm": "Delete",
+      "delete1Desc": "Are you sure you want to permanently delete <b>{{name}}</b>? This action will erase all their data and profile.",
+      "delete2Title": "Final Confirmation",
+      "delete2Confirm": "Permanently Delete",
+      "delete2Desc": "To confirm, type exactly the user's email: <b>{{email}}</b>",
+      "delete2Input": "Type the email here"
+    },
+    "alerts": {
+      "statusError": "Error changing user status",
+      "pwdLength": "Password must be at least 6 characters long",
+      "pwdSuccess": "Password updated successfully",
+      "pwdError": "Error resetting password",
+      "createFill": "You must fill in username and email",
+      "createError": "Error creating user",
+      "copySuccess": "Password copied to clipboard",
+      "deleteSuccess": "User permanently deleted",
+      "deleteError": "Error deleting user",
+      "loading": "Loading users..."
+    }
+  },
+  "chat": {
+    "title": "Chat",
+    "ai": "AI Assistant",
+    "aiOption": "Chat with an AI",
+    "aiSubtitle": "Intelligent assistant",
+    "search": "Search user...",
+    "noUsers": "No users found.",
+    "online": "Online",
+    "offline": "Offline",
+    "wip": "In Development",
+    "wipDesc": "Soon you'll be able to make advanced queries to the AI assistant.",
+    "placeholder": "Write a message..."
+  }
+}

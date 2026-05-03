@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AR Framework Logo Animado</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f2f5;
+        margin: 0;
+      }
+
+      .logo-container {
+        width: 80%;
+        max-width: 600px;
+      }
+
+      svg text {
+        font-family: "Arial", sans-serif;
+        font-weight: 900;
+      }
+
+      .text-ar {
+        fill: #0a2342;
+        z-index: 2;
+      }
+
+      .text-framework {
+        fill: #3a86ff;
+        animation: slideInHide 5s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+      }
+
+      @keyframes slideInHide {
+        0%,
+        10% {
+          transform: translateX(-230px);
+        }
+        40%,
+        60% {
+          transform: translateX(0);
+        }
+        90%,
+        100% {
+          transform: translateX(-230px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="logo-container">
+      <svg viewBox="0 0 450 100" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <clipPath id="mask-right">
+            <rect x="155" y="0" width="300" height="100" />
+          </clipPath>
+        </defs>
+
+        <g clip-path="url(#mask-right)">
+          <text x="165" y="75" font-size="60" class="text-framework">
+            FRAMEWORK
+          </text>
+        </g>
+
+        <text x="10" y="75" font-size="80" class="text-ar">AR</text>
+      </svg>
+    </div>
+  </body>
+</html>

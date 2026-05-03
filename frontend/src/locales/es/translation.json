@@ -1,0 +1,115 @@
+{
+  "navbar": {
+    "profile": "Mi Perfil",
+    "logout": "Cerrar Sesión"
+  },
+  "sidebar": {
+    "home": "Inicio",
+    "profile": "Perfil",
+    "settings": "Configuración",
+    "logout": "Cerrar Sesión"
+  },
+  "welcome": {
+    "greeting": "Hola {{name}}, bienvenido nuevamente :)"
+  },
+  "auth": {
+    "createAccount": "Crear Cuenta",
+    "welcome": "Bienvenido",
+    "username": "Nombre de Usuario",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "register": "Registrarse",
+    "login": "Iniciar Sesión",
+    "alreadyHaveAccount": "¿Ya tienes cuenta? Inicia sesión",
+    "dontHaveAccount": "¿No tienes cuenta? Regístrate aquí"
+  },
+  "profile": {
+    "name": "Nombre",
+    "surname": "Apellido",
+    "email": "Email",
+    "phone": "Teléfono",
+    "birthDate": "Fecha de nacimiento",
+    "address": "Dirección",
+    "city": "Ciudad",
+    "province": "Provincia",
+    "country": "País",
+    "saveChanges": "Guardar Cambios"
+  },
+  "settings": {
+    "title": "Configuración",
+    "general": "General",
+    "userControl": "Control de Usuarios",
+    "generalConfig": "Configuración General",
+    "noConfig": "Aún no hay configuraciones generales disponibles. Pronto podrás elegir tu tema favorito aquí."
+  },
+  "userControl": {
+    "title": "Control de Usuarios",
+    "addUser": "Agregar Usuario",
+    "table": {
+      "username": "Usuario",
+      "name": "Nombre",
+      "email": "Email",
+      "role": "Rol",
+      "status": "Estado",
+      "actions": "Acciones",
+      "active": "Activo",
+      "blocked": "Bloqueado"
+    },
+    "actions": {
+      "resetPassword": "Reiniciar Clave",
+      "block": "Bloquear",
+      "activate": "Activar",
+      "delete": "Eliminar"
+    },
+    "modals": {
+      "cancel": "Cancelar",
+      "resetTitle": "Reiniciar Contraseña",
+      "resetConfirm": "Confirmar Reinicio",
+      "resetDesc1": "Se ha generado la siguiente contraseña aleatoria para el usuario seleccionado.",
+      "resetDesc2": "Por favor, cópiala y compártela con el usuario antes de confirmar.",
+      "resetInput": "Nueva Contraseña Generada",
+      "addTitle": "Agregar Nuevo Usuario",
+      "addConfirm": "Crear y Generar Clave",
+      "addRole": "Rol",
+      "addRoleUser": "Usuario normal (user)",
+      "addRoleAdmin": "Administrador (admin)",
+      "successTitle": "Usuario Creado",
+      "successClose": "Cerrar",
+      "successDesc1": "El usuario ha sido creado correctamente.",
+      "successDesc2": "Esta es su contraseña temporal generada al azar:",
+      "copyClipboard": "Copiar al portapapeles",
+      "delete1Title": "Eliminar Usuario",
+      "delete1Confirm": "Eliminar",
+      "delete1Desc": "¿Estás seguro de que deseas eliminar permanentemente a <b>{{name}}</b>? Esta acción borrará todos sus datos y perfil.",
+      "delete2Title": "Confirmación Final",
+      "delete2Confirm": "Borrar Definitivamente",
+      "delete2Desc": "Para confirmar, escribe exactamente el correo del usuario: <b>{{email}}</b>",
+      "delete2Input": "Escribe el email aquí"
+    },
+    "alerts": {
+      "statusError": "Error al cambiar el estado del usuario",
+      "pwdLength": "La contraseña debe tener al menos 6 caracteres",
+      "pwdSuccess": "Contraseña actualizada correctamente",
+      "pwdError": "Error al reiniciar contraseña",
+      "createFill": "Debes completar el usuario y el email",
+      "createError": "Error al crear usuario",
+      "copySuccess": "Contraseña copiada al portapapeles",
+      "deleteSuccess": "Usuario eliminado permanentemente",
+      "deleteError": "Error al eliminar usuario",
+      "loading": "Cargando usuarios..."
+    }
+  },
+  "chat": {
+    "title": "Chat",
+    "ai": "Asistente IA",
+    "aiOption": "Chatear con una IA",
+    "aiSubtitle": "Asistente inteligente",
+    "search": "Buscar usuario...",
+    "noUsers": "No se encontraron usuarios.",
+    "online": "En línea",
+    "offline": "Desconectado",
+    "wip": "En Desarrollo",
+    "wipDesc": "Pronto podrás hacer consultas avanzadas al asistente con Inteligencia Artificial.",
+    "placeholder": "Escribe un mensaje..."
+  }
+}
